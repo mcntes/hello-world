@@ -1,0 +1,104 @@
+object TextEditorForm: TTextEditorForm
+  Left = 0
+  Top = 0
+  Caption = 'Text Editor'
+  ClientHeight = 361
+  ClientWidth = 384
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object StatusBar: TStatusBar
+    Left = 0
+    Top = 342
+    Width = 384
+    Height = 19
+    Panels = <>
+  end
+  object Editor: TMemo
+    Left = 8
+    Top = 80
+    Width = 368
+    Height = 193
+    Lines.Strings = (
+      'Editor')
+    TabOrder = 1
+  end
+  object ActionList: TActionList
+    Left = 8
+    Top = 32
+    object OpenAction: TAction
+      Category = 'File'
+      Caption = 'Ouvrir...'
+      ShortCut = 16463
+    end
+    object SaveAction: TAction
+      Category = 'File'
+      Caption = 'Enregistrer'
+      ShortCut = 16467
+    end
+    object SaveAsAction: TAction
+      Category = 'File'
+      Caption = 'Enregistrer sous...'
+    end
+    object ExitAction: TAction
+      Category = 'File'
+      Caption = 'Quitter'
+    end
+    object CutAction: TAction
+      Category = 'Edition'
+      Caption = 'Couper'
+    end
+    object CopyAction: TEditCopy
+      Category = 'Edition'
+      Caption = 'C&opier'
+      Hint = 'Copier|Copie la s'#233'lection et la place dans le Presse-papiers'
+      ImageIndex = 1
+      ShortCut = 16451
+    end
+    object PasteAction: TEditPaste
+      Category = 'Edition'
+      Caption = 'Co&ller'
+      Hint = 'Coller|Ins'#232're le contenu du Presse-papiers'
+      ImageIndex = 2
+      ShortCut = 16470
+    end
+    object SelectAllAction: TEditSelectAll
+      Category = 'Edition'
+      Caption = '&Tout s'#233'lectionner'
+      Hint = 'Tout s'#233'lectionner|S'#233'lectionne l'#39'int'#233'gralit'#233' du document'
+      ShortCut = 16449
+    end
+    object UndoAction: TEditUndo
+      Category = 'Edition'
+      Caption = '&Annuler'
+      Hint = 'Annuler|Annuler la derni'#232're action'
+      ImageIndex = 3
+      ShortCut = 16474
+    end
+    object DeleteAction: TEditDelete
+      Category = 'Edition'
+      Caption = '&Supprimer'
+      Hint = 'Supprimer|Efface la s'#233'lection'
+      ImageIndex = 5
+      ShortCut = 46
+    end
+  end
+  object MainMenu: TMainMenu
+    Left = 8
+  end
+  object OpenFileDialog: TOpenDialog
+    Left = 56
+  end
+  object SaveFileDialog: TSaveDialog
+    Left = 56
+    Top = 40
+  end
+end

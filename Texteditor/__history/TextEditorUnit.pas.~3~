@@ -19,43 +19,12 @@ type
     SaveAction: TAction;
     SaveAsAction: TAction;
     ExitAction: TAction;
+    CutAction: TAction;
     CopyAction: TEditCopy;
     PasteAction: TEditPaste;
     SelectAllAction: TEditSelectAll;
     UndoAction: TEditUndo;
     DeleteAction: TEditDelete;
-    Fichier1: TMenuItem;
-    Edition1: TMenuItem;
-    NewAction: TAction;
-    New1: TMenuItem;
-    Ouvrir1: TMenuItem;
-    Enregistrer1: TMenuItem;
-    Enregistrersous1: TMenuItem;
-    Quitter1: TMenuItem;
-    Couper1: TMenuItem;
-    Copier1: TMenuItem;
-    CutAction: TEditCut;
-    Coller1: TMenuItem;
-    outslectionner1: TMenuItem;
-    Annuler1: TMenuItem;
-    N1: TMenuItem;
-    N2: TMenuItem;
-    Supprimer1: TMenuItem;
-    Chercher1: TMenuItem;
-    SearchFind1: TSearchFind;
-    Chercher2: TMenuItem;
-    SearchFindNext1: TSearchFindNext;
-    Occurrencesuivante1: TMenuItem;
-    SearchReplace1: TSearchReplace;
-    Remplacer1: TMenuItem;
-    Aide1: TMenuItem;
-    HelpContents1: THelpContents;
-    Sommaire1: TMenuItem;
-    AproposAction: TAction;
-    Apropos1: TMenuItem;
-    Format1: TMenuItem;
-    WWAction: TAction;
-    WordWrap1: TMenuItem;
   private
     { Déclarations privées }
   public

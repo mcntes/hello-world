@@ -53,9 +53,6 @@ type
     Sommaire1: TMenuItem;
     AproposAction: TAction;
     Apropos1: TMenuItem;
-    Format1: TMenuItem;
-    WWAction: TAction;
-    WordWrap1: TMenuItem;
   private
     { Déclarations privées }
   public

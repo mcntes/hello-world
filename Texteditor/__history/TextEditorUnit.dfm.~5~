@@ -20,16 +20,7 @@ object TextEditorForm: TTextEditorForm
     Top = 342
     Width = 384
     Height = 19
-    Panels = <
-      item
-        Width = 50
-      end
-      item
-        Width = 50
-      end
-      item
-        Width = 50
-      end>
+    Panels = <>
   end
   object Editor: TMemo
     Left = 8
@@ -137,10 +128,6 @@ object TextEditorForm: TTextEditorForm
       Category = 'Help'
       Caption = 'A propos'
     end
-    object WWAction: TAction
-      Category = 'Format'
-      Caption = 'Word Wrap'
-    end
   end
   object MainMenu: TMainMenu
     Left = 8
@@ -199,12 +186,6 @@ object TextEditorForm: TTextEditorForm
       end
       object Remplacer1: TMenuItem
         Action = SearchReplace1
-      end
-    end
-    object Format1: TMenuItem
-      Caption = 'Format'
-      object WordWrap1: TMenuItem
-        Action = WWAction
       end
     end
     object Aide1: TMenuItem

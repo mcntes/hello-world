@@ -2,8 +2,8 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2019/01/09 13:38:02.000.526,=C:\Users\m-coueron\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
-    <Transaction>2019/01/09 13:40:35.000.307,C:\Users\m-coueron\Documents\Embarcadero\Studio\Projets\Unit1.dfm=C:\Users\m-coueron\Documents\hello-world\TextEditorUnit.dfm</Transaction>
-    <Transaction>2019/01/09 13:40:35.000.307,C:\Users\m-coueron\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\m-coueron\Documents\hello-world\TextEditorUnit.pas</Transaction>
-    <Transaction>2019/01/09 13:40:49.000.503,C:\Users\m-coueron\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\m-coueron\Documents\hello-world\TextEditor.dproj</Transaction>
+    <Transaction>2019/01/09 13:40:35.000.307,C:\Users\m-coueron\Documents\hello-world\TextEditorUnit.pas=C:\Users\m-coueron\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2019/01/09 13:40:35.000.307,C:\Users\m-coueron\Documents\hello-world\TextEditorUnit.dfm=C:\Users\m-coueron\Documents\Embarcadero\Studio\Projets\Unit1.dfm</Transaction>
+    <Transaction>2019/01/09 13:40:49.000.503,C:\Users\m-coueron\Documents\hello-world\TextEditor.dproj=C:\Users\m-coueron\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
