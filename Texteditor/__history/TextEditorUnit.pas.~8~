@@ -72,11 +72,4 @@ implementation
 
 {$R *.dfm}
 
-{ TTextEditorForm }
-
-procedure TTextEditorForm.UpdateStatusBar;
-begin
-LineNumber.Text := 'L: ' + (Editor.CaretPos.
-end;
-
 end.

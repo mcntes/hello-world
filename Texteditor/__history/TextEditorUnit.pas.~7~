@@ -59,8 +59,6 @@ type
   private
     { Déclarations privées }
     CurrentFile: String;
-
-    procedure UpdateStatusBar;
   public
     { Déclarations publiques }
   end;
@@ -71,12 +69,5 @@ var
 implementation
 
 {$R *.dfm}
-
-{ TTextEditorForm }
-
-procedure TTextEditorForm.UpdateStatusBar;
-begin
-LineNumber.Text := 'L: ' + (Editor.CaretPos.
-end;
 
 end.
